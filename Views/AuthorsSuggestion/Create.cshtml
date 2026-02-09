@@ -29,11 +29,14 @@
         </div>
 
         <div>
-            <label asp-for="Notes"></label>
-            <textarea asp-for="Notes"></textarea>
-            <span asp-validation-for="Notes"></span>
+            <label asp-for="EmailAddress"></label>
+            <textarea asp-for="EmailAddress"></textarea>
+            <span asp-validation-for="EmailAddress"></span>
         </div>
 
         <button type="submit">Submit Suggestion</button>
     </form>
+    <div asp-validation-summary="All"></div>
+    <span asp-validation-for="Title"></span>
+    if (!ModelState.IsValid) { return View(model); }
 }

@@ -16,6 +16,6 @@ namespace BookBarn.Models
         public int Rating { get; set; }
 
         [StringLength(300)]
-        public string Notes { get; set; }
+        public string EmailAddress { get; set; }
     }
 }
