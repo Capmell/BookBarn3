@@ -3,9 +3,9 @@
     public class Author
     {
         public int Id { get; set; }              // Primary key
-        public string Title { get; set; } = "";  // Basic required text
-        public string Authors { get; set; } = "";
-        public decimal Price { get; set; }
+        public string FirstName { get; set; } = "";  // Basic required text
+        public string MiddleName { get; set; } = "";
+        public string LastName { get; set; } = "";
 
 
     }
