@@ -20,7 +20,7 @@ namespace BookBarn.Controllers
 
             var vm = new AuthorListViewModel
             {
-                Authors = authors,
+                //Authors = authors,
                 PageTitle = "Available Authors",
                 TotalCount = authors.Count,
                 EmptyMessage = "No Authors are currently available."
